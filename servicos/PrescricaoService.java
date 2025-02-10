@@ -1,4 +1,4 @@
-package br.com.clinica.servicos;
+package servicos;
 
 import br.com.clinica.entidades.*;
 import java.time.LocalDate;
@@ -7,14 +7,14 @@ import java.util.List;
 public class PrescricaoService {
     
     public Prescricao criarPrescricao(Consulta consulta, LocalDate dataValidade) {
-        if (consulta.getStatus() != StatusConsulta.REALIZADA) {
+        if (consulta.getStatus() != Consulta.StatusConsulta.REALIZADA) {
             throw new IllegalStateException("Só é possível criar prescrição para consultas realizadas");
         }
         
         return new Prescricao(consulta, dataValidade);
     }
     
-    public void adicionarExame(Prescricao prescricao, TipoExame tipo, double custo) {
+    public void adicionarExame(Prescricao prescricao, Exame.TipoExame tipo, double custo) {
         Exame exame = new Exame(tipo, LocalDate.now(), custo);
         prescricao.adicionarExame(exame);
         prescricao.getConsultaAssociada().adicionarExame(exame);
