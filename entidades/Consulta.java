@@ -7,6 +7,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class Consulta {
+    public enum StatusConsulta {
+        AGENDADA,
+        CANCELADA,
+        REALIZADA
+    }
+
     private LocalDate dataConsulta;
     private LocalTime horarioInicio;
     private int duracaoMinutos;
