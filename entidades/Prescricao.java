@@ -1,4 +1,4 @@
-package br.com.clinica.entidades;
+package entidades;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
