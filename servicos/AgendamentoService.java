@@ -1,4 +1,4 @@
-package br.com.clinica.servicos;
+package servicos;
 
 import br.com.clinica.entidades.*;
 import br.com.clinica.excecoes.*;
@@ -26,7 +26,7 @@ public class AgendamentoService {
             .anyMatch(consulta -> 
                 consulta.getDataConsulta().equals(data) && 
                 consulta.getHorarioInicio().equals(horario) &&
-                consulta.getStatus() != StatusConsulta.CANCELADA);
+                consulta.getStatus() != Consulta.StatusConsulta.CANCELADA);
 
         if (horarioOcupado) {
             throw new HorarioIndisponivelException("Médico já possui consulta agendada neste horário");
@@ -37,7 +37,7 @@ public class AgendamentoService {
         long consultasNoDia = medico.getHistoricoConsultas().stream()
             .filter(consulta -> 
                 consulta.getDataConsulta().equals(data) && 
-                consulta.getStatus() != StatusConsulta.CANCELADA)
+                consulta.getStatus() != Consulta.StatusConsulta.CANCELADA)
             .count();
 
         if (consultasNoDia >= MAX_CONSULTAS_POR_DIA) {
@@ -65,7 +65,7 @@ public class AgendamentoService {
         boolean temConsultaNoDia = paciente.getHistoricoConsultas().stream()
             .anyMatch(consulta -> 
                 consulta.getDataConsulta().equals(data) && 
-                consulta.getStatus() != StatusConsulta.CANCELADA);
+                consulta.getStatus() != Consulta.StatusConsulta.CANCELADA);
 
         if (temConsultaNoDia) {
             throw new HorarioIndisponivelException("Paciente já possui consulta agendada neste dia");
@@ -78,16 +78,17 @@ public class AgendamentoService {
     }
 
     public void cancelarConsulta(Consulta consulta) {
-        if (consulta.getStatus() != StatusConsulta.AGENDADA) {
+        if (consulta.getStatus() != Consulta.StatusConsulta.AGENDADA) {
             throw new IllegalStateException("Não é possível cancelar uma consulta que não está agendada");
         }
-        consulta.setStatus(StatusConsulta.CANCELADA);
+        consulta.setStatus(Consulta.StatusConsulta.CANCELADA);
     }
 
     public void finalizarConsulta(Consulta consulta) {
-        if (consulta.getStatus() != StatusConsulta.AGENDADA) {
+        if (consulta.getStatus() != Consulta.StatusConsulta.AGENDADA) {
             throw new IllegalStateException("Não é possível finalizar uma consulta que não está agendada");
         }
-        consulta.setStatus(StatusConsulta.REALIZADA);
+        consulta.setStatus(Consulta.StatusConsulta.REALIZADA);
     }
 }
+
