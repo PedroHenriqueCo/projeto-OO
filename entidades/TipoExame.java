@@ -1,4 +1,4 @@
-package br.com.clinica.entidades;
+package entidades;
 
 public enum TipoExame {
     SANGUE,
