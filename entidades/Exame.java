@@ -3,6 +3,12 @@ package entidades;
 import java.time.LocalDate;
 
 public class Exame {
+    public enum TipoExame {
+        SANGUE,
+        RAIO_X,
+        ULTRASSOM
+    }
+
     private TipoExame tipo;
     private LocalDate dataPrescricao;
     private LocalDate dataRealizacao;
@@ -51,3 +57,4 @@ public class Exame {
         this.custo = custo;
     }
 }
+
