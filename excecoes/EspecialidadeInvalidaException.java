@@ -1,4 +1,4 @@
-package br.com.clinica.excecoes;
+package excecoes;
 
 public class EspecialidadeInvalidaException extends RuntimeException {
     public EspecialidadeInvalidaException(String message) {
