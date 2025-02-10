@@ -1,4 +1,4 @@
-package br.com.clinica.servicos;
+package servicos;
 
 import br.com.clinica.entidades.*;
 import java.time.LocalDateTime;
