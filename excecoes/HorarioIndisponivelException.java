@@ -1,4 +1,4 @@
-package br.com.clinica.excecoes;
+package excecoes;
 
 public class HorarioIndisponivelException extends RuntimeException {
     public HorarioIndisponivelException(String message) {
