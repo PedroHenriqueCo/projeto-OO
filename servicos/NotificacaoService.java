@@ -1,4 +1,4 @@
-package br.com.clinica.servicos;
+package servicos;
 
 import br.com.clinica.entidades.*;
 import java.time.LocalDate;
@@ -12,7 +12,7 @@ public class NotificacaoService {
         LocalDate hoje = LocalDate.now();
         
         consultas.stream()
-            .filter(consulta -> consulta.getStatus() == StatusConsulta.AGENDADA)
+            .filter(consulta -> consulta.getStatus() == Consulta.StatusConsulta.AGENDADA)
             .filter(consulta -> {
                 long diasAteConsulta = ChronoUnit.DAYS.between(hoje, consulta.getDataConsulta());
                 return diasAteConsulta <= DIAS_ANTECEDENCIA_NOTIFICACAO && diasAteConsulta > 0;
