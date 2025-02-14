@@ -1,4 +1,4 @@
-package br.com.clinica.view;
+package view;
 
 import javax.swing.JOptionPane;
 
