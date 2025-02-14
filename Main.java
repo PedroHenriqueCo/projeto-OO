@@ -1,8 +1,8 @@
-package br.com.clinica;
+package clinica;
 
-import br.com.clinica.repositorios.*;
-import br.com.clinica.servicos.*;
-import br.com.clinica.view.*;
+import clinica.repositorios.*;
+import clinica.servicos.*;
+import clinica.view.*;
 import javax.swing.JOptionPane;
 
 public class Main {
