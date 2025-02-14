@@ -1,4 +1,4 @@
-package view;
+package clinica.view;
 
 import javax.swing.JOptionPane;
 
