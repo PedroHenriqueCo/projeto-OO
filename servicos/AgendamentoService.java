@@ -1,7 +1,7 @@
-package servicos;
+package clinica.servicos;
 
-import entidades.*;
-import excecoes.*;
+import clinica.entidades.*;
+import clinica.excecoes.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
