@@ -1,6 +1,6 @@
-package servicos;
+package clinica.servicos;
 
-import entidades.*;
+import clinica.entidades.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
