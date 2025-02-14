@@ -1,4 +1,4 @@
-package excecoes;
+package clinica.excecoes;
 
 public class HorarioIndisponivelException extends RuntimeException {
     public HorarioIndisponivelException(String message) {
