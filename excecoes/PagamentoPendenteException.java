@@ -1,4 +1,4 @@
-package excecoes;
+package clinica.excecoes;
 
 public class PagamentoPendenteException extends RuntimeException {
     public PagamentoPendenteException(String message) {
