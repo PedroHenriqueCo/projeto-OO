@@ -1,6 +1,6 @@
-package repositorios;
+package clinica.repositorios;
 
-import entidades.Exame;
+import clinica.entidades.Exame;
 import java.util.*;
 
 public class ExameRepository implements Repository<Exame, Long> {
