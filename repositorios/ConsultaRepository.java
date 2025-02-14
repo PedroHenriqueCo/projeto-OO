@@ -1,8 +1,8 @@
-package br.com.clinica.repositorios;
+package repositorios;
 
-import br.com.clinica.entidades.Consulta;
-import br.com.clinica.entidades.Medico;
-import br.com.clinica.entidades.Paciente;
+import entidades.Consulta;
+import entidades.Medico;
+import entidades.Paciente;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
