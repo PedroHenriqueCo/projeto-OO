@@ -1,6 +1,6 @@
 package servicos;
 
-import br.com.clinica.entidades.*;
+import entidades.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
