@@ -1,7 +1,7 @@
 package br.com.clinica.view;
 
-import br.com.clinica.servicos.*;
-import br.com.clinica.entidades.*;
+import servicos.*;
+import entidades.*;
 import javax.swing.JOptionPane;
 
 public class MenuPagamento {
