@@ -1,7 +1,7 @@
 package servicos;
 
-import br.com.clinica.entidades.*;
-import br.com.clinica.excecoes.*;
+import entidades.*;
+import excecoes.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
