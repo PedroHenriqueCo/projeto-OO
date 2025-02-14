@@ -1,4 +1,4 @@
-package entidades;
+package clinica.entidades;
 
 public class Medicamento {
     private String nome;
