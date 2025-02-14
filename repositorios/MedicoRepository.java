@@ -1,6 +1,6 @@
-package br.com.clinica.repositorios;
+package repositorios;
 
-import br.com.clinica.entidades.Medico;
+import entidades.Medico;
 import java.util.*;
 import java.util.stream.Collectors;
 
