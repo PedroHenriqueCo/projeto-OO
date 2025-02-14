@@ -1,7 +1,7 @@
-package view;
+package clinica.view;
 
-import servicos.*;
-import entidades.*;
+import clinica.servicos.*;
+import clinica.entidades.*;
 import javax.swing.JOptionPane;
 import java.time.LocalDate;
 import java.time.LocalTime;
