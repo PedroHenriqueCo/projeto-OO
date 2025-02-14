@@ -1,7 +1,7 @@
-package br.com.clinica.view;
+package view;
 
-import br.com.clinica.servicos.PacienteService;
-import br.com.clinica.entidades.Paciente;
+import servicos.PacienteService;
+import entidades.Paciente;
 import javax.swing.JOptionPane;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
