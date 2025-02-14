@@ -1,4 +1,4 @@
-package br.com.clinica.repositorios;
+package repositorios;
 
 import java.util.List;
 import java.util.Optional;
