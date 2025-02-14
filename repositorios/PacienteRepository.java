@@ -1,6 +1,6 @@
-package br.com.clinica.repositorios;
+package repositorios;
 
-import br.com.clinica.entidades.Paciente;
+import entidades.Paciente;
 import java.util.*;
 
 public class PacienteRepository implements Repository<Paciente, String> {
