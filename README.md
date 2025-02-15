@@ -19,6 +19,9 @@ Pedro Henrique Conceição De Souza - 232030032
 ## Objetivo
 O objetivo desse trabalho é desenvolver um sistema que utilize os conceitos de orientação a objetos para gerenciar diversas funcionalidades de uma clínica médica. A aplicação prática dos conceitos de modularidade, encapsulamento, herança, polimorfismo e tratamento de exceções personalizadas.
 
+
+
+
 # Funcionalidades Principais
 #### Cadastro de Pacientes e Médicos
 - cria, ler, atualiza, deleta os dados dos pacientes.
@@ -48,7 +51,7 @@ O objetivo desse trabalho é desenvolver um sistema que utilize os conceitos de 
      
 # 💻 Modelagem
 utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eventuais erros estruturais, além de guiar nosso desenvolvimento. Somado a isso, vale ressaltar que o artefato Diagrama de Classes UML desenvolvido foi atualizado conforme a necessidade durante o desenvolvimento do projeto. Confira o artefato UML desenvolvido na imagem.
-
+![Texto alternativo](![Captura de tela 2025-02-14 201538](https://github.com/user-attachments/assets/7ef41835-3d66-4be0-ad6e-45fd6a57d31b))
 
 
   
