@@ -54,6 +54,8 @@ utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eve
 ![Texto alternativo](![Captura de tela 2025-02-14 201538](https://github.com/user-attachments/assets/7ef41835-3d66-4be0-ad6e-45fd6a57d31b))
 ![Texto alternativo](![Captura de tela 2025-02-14 201538](![Captura de tela 2025-02-14 201618](https://github.com/user-attachments/assets/90c3644c-3887-4f95-ae22-f64304ce34ec)
 ))
+![Texto alternativo](![Captura de tela 2025-02-14 201538](![Captura de tela 2025-02-14 201656](https://github.com/user-attachments/assets/dc3d44f7-653b-4d06-8507-442b1dc0c3a3)
+))
 
 
   
