@@ -36,7 +36,7 @@ O objetivo desse trabalho é desenvolver um sistema que utilize os conceitos de 
 - Agendamento em horário indisponível: Quando o médico não está disponível para o horário solicitado.
 - Paciente com pagamento pendente: Quando um paciente tentar agendar uma consulta sem quitar os pagamentos pendentes.
 - Médico não encontrado para uma especialidade: Quando o sistema não encontrar um médico disponível para a especialidade desejada.
-  ## Exceções
+## Exceções
  Ao implementar essas exceções, o sistema consegue tratar de forma eficaz erros de lógica, prevenindo que ações indesejadas ou inválidas sejam executadas e oferecendo uma experiência mais confiável para o usuário.
  
    - HorarioIndisponivelException: Lançada quando se tenta agendar uma consulta em um horário que já está ocupado.
