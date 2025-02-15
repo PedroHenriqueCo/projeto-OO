@@ -21,11 +21,32 @@ O objetivo desse trabalho é desenvolver um sistema que utilize os conceitos de 
 
 # Funcionalidades Principais
 #### Cadastro de Pacientes e Médicos
--
+- cria, ler, atualiza, deleta os dados dos pacientes.
+- adciona consultas ao histórico médico.
+- Bloquear o cadastro de pacientes com CPF já registrado no sistema.
 #### Agendamento de Consultas
+- O sistema permiti que consultas sejam agendadas, visualizadas, atualizadas e canceladas.
 #### Prescrição de Exames e Medicamentos
+- O sistema permiti a criação, leitura, atualização e exclusão de exames e medicamentos.
+- Médicos podem prescrever exames ou medicamentos, associando-os a uma consulta específica.
 #### Gestão de Pagamentos
+- Cada consulta e exame tem um valor associado que deve ser pago pelo paciente.
+- Pacientes com pagamentos pendentes não podem agendar novas consultas até que regularizem a situação financeira.
 #### Tratamento de Exceções
-  Esses são os resumos de cada funcionalidade que o sistema precisa implementar. O objetivo é garantir que o processo de gestão de consultas, pacientes, médicos, exames e pagamentos seja eficaz e seguro, utilizando uma estrutura bem organizada para facilitar a manutenção do sistema a longo prazo.
+- Agendamento em horário indisponível: Quando o médico não está disponível para o horário solicitado.
+- Paciente com pagamento pendente: Quando um paciente tentar agendar uma consulta sem quitar os pagamentos pendentes.
+- Médico não encontrado para uma especialidade: Quando o sistema não encontrar um médico disponível para a especialidade desejada.
+  ## Exceções
+ Ao implementar essas exceções, o sistema consegue tratar de forma eficaz erros de lógica, prevenindo que ações indesejadas ou inválidas sejam executadas e oferecendo uma experiência mais confiável para o usuário.
+ 
+   - HorarioIndisponivelException: Lançada quando se tenta agendar uma consulta em um horário que já está ocupado.
+   - PagamentoPendenteException: Lançada quando o paciente tenta agendar uma consulta ou exame com pendências financeiras.
+   - EspecialidadeInvalidaException: Lançada quando o paciente tenta agendar uma consulta com um médico que não possui a especialidade necessária.
+     
+# Modelagem e Ferramentas
+- UML (Linguagem de Modelagem Unificada): Utilizada para modelar a estrutura e os processos do sistema, garantindo uma organização clara e a integridade do projeto.
+
+
+     
 
 
