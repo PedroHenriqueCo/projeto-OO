@@ -43,8 +43,12 @@ O objetivo desse trabalho é desenvolver um sistema que utilize os conceitos de 
    - PagamentoPendenteException: Lançada quando o paciente tenta agendar uma consulta ou exame com pendências financeiras.
    - EspecialidadeInvalidaException: Lançada quando o paciente tenta agendar uma consulta com um médico que não possui a especialidade necessária.
      
-# Modelagem e Ferramentas
-- UML (Linguagem de Modelagem Unificada): Utilizada para modelar a estrutura e os processos do sistema, garantindo uma organização clara e a integridade do projeto.
+# 💻 Modelagem
+utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eventuais erros estruturais, além de guiar nosso desenvolvimento. Somado a isso, vale ressaltar que o artefato Diagrama de Classes UML desenvolvido foi atualizado conforme a necessidade durante o desenvolvimento do projeto. Confira o artefato UML desenvolvido na imagem.
+
+
+
+  
 
 
      
