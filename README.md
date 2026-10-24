@@ -57,6 +57,28 @@ utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eve
 ![Texto alternativo](![Captura de tela 2025-02-14 201538](![Captura de tela 2025-02-14 201656](https://github.com/user-attachments/assets/dc3d44f7-653b-4d06-8507-442b1dc0c3a3)
 ))
 
+# Testes de Energia
+
+>Apresentar com detalhes os testes feitos para conferir se as demandas energéticas do projeto foram atendidas.
+
+| **ID** | **Descrição** | **Data de Início** | **Data de Conclusão** | **Responsável** | **Resultados Esperados** | **Resultados Obtidos** | **Aprovação Interna (S/N)** | **Aprovação do Orientador (S/N)** | **Observações** |
+|:------:|---------------|--------------------|-----------------------|-----------------|--------------------------|------------------------|:---------------------------:|:--------------------------------:|-----------------|
+| 2.1 | | | | | | | | | |
+| 2.2 | | | | | | | | | |
+| 2.3 | | | | | | | | | |
+| 2.4 | | | | | | | | | |
+| 2.5 | | | | | | | | | |
+| 2.6 | | | | | | | | | |
+| 2.7 | | | | | | | | | |
+| 2.8 | | | | | | | | | |
+| 2.9 | | | | | | | | | |
+| 2.10 | | | | | | | | | |
+| 2.12 | | | | | | | | | |
+| 2.13 | | | | | | | | | |
+| 2.15 | | | | | | | | | |
+| 2.16 | | | | | | | | | |
+
+
 
   
 
