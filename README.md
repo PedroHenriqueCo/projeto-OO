@@ -61,8 +61,8 @@ utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eve
 
 > Apresentar com detalhes os testes feitos para conferir se os objetivos do *hardware* foram atendidos, incluindo:
 >
-> 1. Verificar a autonomia do Micromouse com a bateria LiPo 2S durante a operação real no >labirinto (AP18). Depende de #191.:
->    - Tempo de operação medido do carregamento completo até o limite seguro de descarga, com o >robô navegando no labirinto de testes;
+> 1. Verificar a autonomia do Micromouse com a bateria LiPo 2S durante a operação real no labirinto (AP18). Depende de #191.:
+>    - Tempo de operação medido do carregamento completo até o limite seguro de descarga, com o robô navegando no labirinto de testes;
 >    - Número de corridas possíveis com uma carga estimado para os labirintos 4x4, 8x4 e 12x4;
 >    - Curva de tensão da bateria registrada pela telemetria durante o teste;
 >    - Autonomia medida comparada com a estimada no dimensionamento da bateria;
