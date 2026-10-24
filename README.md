@@ -96,21 +96,6 @@ utilizado a Linguagem de Modelagem Unificada (UML) para a minimalização de eve
 >    - Causa do reset registrada pelo firmware (motivo do último reset do ESP32) e verificada após cada corrida;
 >    - Falhas encontradas registradas como sub-issues com causa e correção.
 
-| **ID** | **Descrição** | **Data de Início** | **Data de Conclusão** | **Responsável** | **Resultados Esperados** | **Resultados Obtidos** | **Aprovação Interna (S/N)** | **Aprovação do Orientador (S/N)** | **Observações** |
-|:------:|---------------|--------------------|-----------------------|-----------------|--------------------------|------------------------|:---------------------------:|:--------------------------------:|-----------------|
-| 2.1 | | | | | | | | | |
-| 2.2 | | | | | | | | | |
-| 2.3 | | | | | | | | | |
-| 2.4 | | | | | | | | | |
-| 2.5 | | | | | | | | | |
-| 2.6 | | | | | | | | | |
-| 2.7 | | | | | | | | | |
-| 2.8 | | | | | | | | | |
-| 2.9 | | | | | | | | | |
-| 2.10 | | | | | | | | | |
-| 2.12 | | | | | | | | | |
-| 2.13 | | | | | | | | | |
-| 2.15 | | | | | | | | | |
 
 
 | **ID** | **Descrição** | **Data de Início** | **Data de Conclusão** | **Responsável** | **Resultados Esperados** | **Resultados Obtidos** | **Aprovação Interna (S/N)** | **Aprovação do Orientador (S/N)** | **Observações** |
